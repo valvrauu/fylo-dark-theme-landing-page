@@ -3,6 +3,10 @@ module.exports = {
 
   theme: {
     extend: {
+      spacing: {
+        '13': '3.25rem',
+        '18': '4.5rem',
+      },
       colors: {
         'mirage-100': '#0b1523',
         'mirage-200': '#181f2a',
