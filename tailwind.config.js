@@ -13,6 +13,9 @@ module.exports = {
         'open-sans': ['Open Sans', 'sans-serif'],
         'raleway': ['Raleway', 'sans-serif'],
       },
+      screens: {
+        'xsm': '375px',
+      },
     },
   },
 
