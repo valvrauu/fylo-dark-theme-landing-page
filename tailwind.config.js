@@ -6,6 +6,10 @@ module.exports = {
       spacing: {
         '13': '3.25rem',
         '18': '4.5rem',
+        '19': '4.75rem',
+        '70': '17.5rem',
+        '76': '19rem',
+        '212': '53rem',
       },
       colors: {
         'mirage-100': '#0b1523',
