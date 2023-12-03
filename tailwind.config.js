@@ -11,6 +11,10 @@ module.exports = {
         '76': '19rem',
         '212': '53rem',
       },
+      maxWidth: {
+        '1.5xl': '36.82rem',
+        '2.5xl': '46rem',
+      },
       colors: {
         'mirage-100': '#0b1523',
         'mirage-200': '#181f2a',
