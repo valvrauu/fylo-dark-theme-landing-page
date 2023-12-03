@@ -31,8 +31,9 @@ module.exports = {
         'open-sans': ['Open Sans', 'sans-serif'],
         'raleway': ['Raleway', 'sans-serif'],
       },
-      screens: {
-        'xsm': '375px',
+      lineHeight: {
+        '7.5': '1.875rem',
+        '15': '3.75rem',
       },
     },
   },
