@@ -21,6 +21,9 @@ module.exports = {
         'mirage-300': '#1c2431',
         'mirage-400': '#202a3c',
       },
+      backgroundImage: {
+        'cta': 'linear-gradient(#63E1D9, #34A0CD)',
+      },
       fontFamily: {
         'open-sans': ['Open Sans', 'sans-serif'],
         'raleway': ['Raleway', 'sans-serif'],
