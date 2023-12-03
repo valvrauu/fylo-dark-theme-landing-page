@@ -24,6 +24,9 @@ module.exports = {
       backgroundImage: {
         'cta': 'linear-gradient(#63E1D9, #34A0CD)',
       },
+      fontSize: {
+        '4.5xl': '2.5rem',
+      },
       fontFamily: {
         'open-sans': ['Open Sans', 'sans-serif'],
         'raleway': ['Raleway', 'sans-serif'],
