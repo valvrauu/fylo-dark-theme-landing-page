@@ -3,9 +3,20 @@ module.exports = {
 
   theme: {
     extend: {
+      screens: {
+        'xsm': '375px',
+      },
       spacing: {
         '13': '3.25rem',
         '18': '4.5rem',
+        '19': '4.75rem',
+        '70': '17.5rem',
+        '76': '19rem',
+        '212': '53rem',
+      },
+      maxWidth: {
+        '1.5xl': '36.82rem',
+        '2.5xl': '46rem',
       },
       colors: {
         'mirage-100': '#0b1523',
@@ -13,12 +24,19 @@ module.exports = {
         'mirage-300': '#1c2431',
         'mirage-400': '#202a3c',
       },
+      backgroundImage: {
+        'cta': 'linear-gradient(#63E1D9, #34A0CD)',
+      },
+      fontSize: {
+        '4.5xl': '2.5rem',
+      },
       fontFamily: {
         'open-sans': ['Open Sans', 'sans-serif'],
         'raleway': ['Raleway', 'sans-serif'],
       },
-      screens: {
-        'xsm': '375px',
+      lineHeight: {
+        '7.5': '1.875rem',
+        '15': '3.75rem',
       },
     },
   },
