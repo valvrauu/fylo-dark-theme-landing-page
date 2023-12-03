@@ -9,6 +9,9 @@ module.exports = {
         'mirage-300': '#1c2431',
         'mirage-400': '#202a3c',
       },
+      fontFamily: {
+        'open-sans': ['Open Sans', 'sans-serif'],
+      },
     },
   },
 
