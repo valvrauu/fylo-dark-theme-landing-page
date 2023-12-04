@@ -26,6 +26,7 @@ module.exports = {
         '1.5xl': '36.82rem',
         '2.5xl': '46rem',
         '880px': '55rem',
+        '1440px': '90rem',
       },
       colors: {
         'mirage-100': '#0b1523',
