@@ -6,6 +6,9 @@ module.exports = {
       screens: {
         'xsm': '375px',
       },
+      gridTemplateColumns: {
+        'max/1fr': 'max-content 1fr',
+      },
       spacing: {
         '13': '3.25rem',
         '18': '4.5rem',
@@ -13,6 +16,7 @@ module.exports = {
         '26': '6.75rem',
         '30': '7.5rem',
         '33': '8.25rem',
+        '34': '8.5rem',
         '38': '9.5rem',
         '70': '17.5rem',
         '76': '19rem',
@@ -22,6 +26,7 @@ module.exports = {
         '1.5xl': '36.82rem',
         '2.5xl': '46rem',
         '880px': '55rem',
+        '1440px': '90rem',
       },
       colors: {
         'mirage-100': '#0b1523',
