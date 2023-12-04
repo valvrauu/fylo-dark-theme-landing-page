@@ -21,6 +21,7 @@ module.exports = {
       maxWidth: {
         '1.5xl': '36.82rem',
         '2.5xl': '46rem',
+        '880px': '55rem',
       },
       colors: {
         'mirage-100': '#0b1523',
