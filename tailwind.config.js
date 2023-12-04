@@ -6,6 +6,9 @@ module.exports = {
       screens: {
         'xsm': '375px',
       },
+      gridTemplateColumns: {
+        'max/1fr': 'max-content 1fr',
+      },
       spacing: {
         '13': '3.25rem',
         '18': '4.5rem',
