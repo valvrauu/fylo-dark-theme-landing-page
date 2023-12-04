@@ -10,6 +10,10 @@ module.exports = {
         '13': '3.25rem',
         '18': '4.5rem',
         '19': '4.75rem',
+        '26': '6.75rem',
+        '30': '7.5rem',
+        '33': '8.25rem',
+        '38': '9.5rem',
         '70': '17.5rem',
         '76': '19rem',
         '212': '53rem',
@@ -17,6 +21,7 @@ module.exports = {
       maxWidth: {
         '1.5xl': '36.82rem',
         '2.5xl': '46rem',
+        '880px': '55rem',
       },
       colors: {
         'mirage-100': '#0b1523',
