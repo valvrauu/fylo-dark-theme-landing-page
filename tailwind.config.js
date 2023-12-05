@@ -43,6 +43,7 @@ module.exports = {
         '3xs': '0.5rem',
         '2xs': '0.625rem',
         '4.5xl': '2.5rem',
+        '7.5xl': '5.25rem',
       },
       fontFamily: {
         'open-sans': ['Open Sans', 'sans-serif'],
