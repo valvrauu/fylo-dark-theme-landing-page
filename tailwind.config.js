@@ -48,6 +48,7 @@ module.exports = {
       fontFamily: {
         'open-sans': ['Open Sans', 'sans-serif'],
         'raleway': ['Raleway', 'sans-serif'],
+        'nunito': ['Nunito Sans', 'sans-serif'],
       },
       lineHeight: {
         '7.5': '1.875rem',
