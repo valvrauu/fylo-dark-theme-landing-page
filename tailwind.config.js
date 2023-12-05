@@ -40,6 +40,7 @@ module.exports = {
         'cta': 'linear-gradient(#63E1D9, #34A0CD)',
       },
       fontSize: {
+        '3xs': '0.5rem',
         '4.5xl': '2.5rem',
       },
       fontFamily: {
