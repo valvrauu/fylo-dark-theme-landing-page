@@ -51,6 +51,7 @@ module.exports = {
         'nunito': ['Nunito Sans', 'sans-serif'],
       },
       lineHeight: {
+        '4.5': '1.125rem',
         '7.5': '1.875rem',
         '15': '3.75rem',
       },
