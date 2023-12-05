@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 .testimonial {
-    @apply flex flex-col grow gap-y-4 lg:gap-y-6 sm:basis-60 relative px-5 lg:px-7 pt-6 lg:pt-10 pb-5 bg-mirage-400 rounded shadow-light;
+    @apply flex flex-col grow gap-y-4 relative px-5 pt-6 pb-5 bg-mirage-400 rounded shadow-light;
 }
 
 .testimonial__text {
-    @apply font-open-sans text-2xs lg:text-sm leading-4.5 lg:tracking-wide;
+    @apply font-open-sans text-2xs leading-4.5;
 }
 
 .testimonial__img {
@@ -20,4 +20,20 @@
 
 .testimonial__company {
     @apply text-3xs font-open-sans not-italic leading-tight tracking-wider;
+}
+
+@screen sm {
+    .testimonial {
+        @apply basis-60;
+    }
+}
+
+@screen lg {
+    .testimonial {
+        @apply gap-y-6 px-7 pt-10;
+    }
+
+    .testimonial__text {
+        @apply text-sm tracking-wide;
+    }
 }
