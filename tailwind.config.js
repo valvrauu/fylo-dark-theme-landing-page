@@ -56,6 +56,9 @@ module.exports = {
         '12': '3rem',
         '15': '3.75rem',
       },
+      boxShadow: {
+        'light': '5px 5px 8px 4px rgba(56, 56, 56, 0.10)',
+      }
     },
   },
 
