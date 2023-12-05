@@ -17,7 +17,9 @@ module.exports = {
         '30': '7.5rem',
         '33': '8.25rem',
         '34': '8.5rem',
+        '35': '8.75rem',
         '38': '9.5rem',
+        '42': '10.5rem',
         '70': '17.5rem',
         '76': '19rem',
         '212': '53rem',
@@ -38,16 +40,25 @@ module.exports = {
         'cta': 'linear-gradient(#63E1D9, #34A0CD)',
       },
       fontSize: {
+        '3xs': '0.5rem',
+        '2xs': '0.625rem',
         '4.5xl': '2.5rem',
+        '7.5xl': '5.25rem',
       },
       fontFamily: {
         'open-sans': ['Open Sans', 'sans-serif'],
         'raleway': ['Raleway', 'sans-serif'],
+        'nunito': ['Nunito Sans', 'sans-serif'],
       },
       lineHeight: {
+        '4.5': '1.125rem',
         '7.5': '1.875rem',
+        '12': '3rem',
         '15': '3.75rem',
       },
+      boxShadow: {
+        'light': '5px 5px 8px 4px rgba(56, 56, 56, 0.10)',
+      }
     },
   },
 
