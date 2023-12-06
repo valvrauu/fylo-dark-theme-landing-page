@@ -18,11 +18,11 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 
     <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
   </head>
@@ -199,26 +199,27 @@
       </blockquote>
     </section>
 
-    Get early access today
+    <div class="absolute w-full max-w-[1440px] translate-y-40 md:translate-y-[201px]">
+      <section class="flex flex-col gap-y-2 xsm:gap-y-8 lg:gap-y-[38px] max-w-[770px] lg:max-w-[863px] mx-2 xsm:mx-5 md:mx-auto pt-10 lg:pt-[42px] px-3 xsm:px-7 lg:px-[77px] pb-[37px] lg:pb-[41px] bg-[#1B2330] text-center rounded-[9px] shadow-dark">
+        <div class="flex flex-col gap-y-[16px] lg:px-[18px]">
+          <h2 class="font-raleway font-bold text-md xsm:text-lg md:text-2xl lg:text-[32px] leading-[1.333] lg:leading-normal not-italic">Get early access today</h2>
 
-    It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
-    questions, our support team would be happy to help you.
+          <p class="font-open-sans text-2xs xsm:text-sm xsm:leading-normal">
+            It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
+            questions, our support team would be happy to help you.
+          </p>
+        </div>
 
-    Get Started For Free
+        <form action="#" method="post" autocomplete="on" class="flex flex-col md:flex-row gap-y-6 gap-x-[29px]">
+          <input 
+            type="email" 
+            required placeholder="email@example.com" 
+            class="grow xsm:pt-[19px] xsm:pb-[15px] py-2 lg:py-4 xsm:pl-[29px] lg:pl-[38px] text-[#07043B] text-xs text-center xsm:text-left xsm:leading-normal rounded-full placeholder:text-gray-300 placeholder:font-open-sans placeholder:text-2xs lg:placeholder:text-xs"
+          />
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-    dolore magna aliqua
-
-    +1-543-123-4567
-    example@fylo.com
-
-    About Us
-    Jobs
-    Press
-    Blog
-
-    Contact Us
-    Terms
-    Privacy
+          <button class="lg:w-[200px] py-2.5 xsm:py-4 lg:py-[15px] md:pl-[27px] md:pr-[26px] bg-cta font-bold font-raleway text-2xs xsm:text-sm leading-normal rounded-full cursor-pointer hover:bg-none hover:bg-cyan-200">Get Started For Free</button>
+        </form>
+      </section>
+    </div>
   </body>
 </html>
