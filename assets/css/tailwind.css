@@ -30,7 +30,7 @@
 
 @screen lg {
     .testimonial {
-        @apply gap-y-6 px-7 pt-10;
+        @apply gap-y-6 px-7 pt-10 pb-[26px];
     }
 
     .testimonial__text {
