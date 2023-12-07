@@ -2,6 +2,18 @@ module.exports = {
   content: ["./index.html"],
 
   theme: {
+    fontSize: {
+      '2xs': '0.5rem', /* 8px */
+      'xs': '0.625rem', /* 10px */
+      'sm': '0.75rem', /* 12px */
+      'base': '0.875rem', /* 14px */
+      'xl': '1rem', /* 16px */
+      '2xl': '1.125rem', /* 18px */
+      '3xl': '1.25rem', /* 20px */
+      '4xl': '1.5rem', /* 24px */
+      '5xl': '2rem', /* 32px */
+      '6xl': '2.5rem', /* 40px */
+    },
     extend: {
       screens: {
         'xsm': '375px',
@@ -31,19 +43,15 @@ module.exports = {
         '1440px': '90rem',
       },
       colors: {
-        'mirage-100': '#0b1523',
-        'mirage-200': '#181f2a',
-        'mirage-300': '#1c2431',
-        'mirage-400': '#202a3c',
+        primary: {
+          100: '#0b1523',
+          200: '#181f2a',
+          300: '#1c2431',
+          400: '#202a3c',
+        },
       },
       backgroundImage: {
         'cta': 'linear-gradient(#63E1D9, #34A0CD)',
-      },
-      fontSize: {
-        '3xs': '0.5rem',
-        '2xs': '0.625rem',
-        '4.5xl': '2.5rem',
-        '7.5xl': '5.25rem',
       },
       fontFamily: {
         'open-sans': ['Open Sans', 'sans-serif'],
