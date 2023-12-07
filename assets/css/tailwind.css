@@ -2,6 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .btn {
+        @apply block rounded-full cursor-pointer;
+    }
+
+    .btn--primary {
+        @apply text-white text-xs bg-cta font-raleway font-bold;
+    }
+
+    .btn--primary:hover {
+        @apply bg-none bg-[#8ADAE3];
+    }
+}
+
+@screen xsm {
+    .btn--primary {
+        @apply text-base;
+    }
+}
+
+@screen md {
+    .btn--primary {
+        @apply text-xl;
+    }
+}
+
+@screen lg {
+    .btn--primary {
+        @apply text-xl;
+    }
+}
+
 .testimonial {
     @apply flex flex-col grow gap-y-4 relative px-5 pt-6 pb-5 bg-mirage-400 rounded shadow-light;
 }
