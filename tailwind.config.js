@@ -23,6 +23,7 @@ module.exports = {
       },
       spacing: {
         '13': '3.25rem',
+        '18': '4.5rem',
         '19': '4.75rem',
         '26': '6.75rem',
         '30': '7.5rem',
@@ -37,7 +38,8 @@ module.exports = {
       },
       maxWidth: {
         '1.5xl': '36.82rem',
-        '2.5xl': '46rem',
+        '240px': '15rem',
+        '280px': '17.5rem',
         '880px': '55rem',
         '1440px': '90rem',
       },
@@ -50,7 +52,7 @@ module.exports = {
         },
       },
       backgroundImage: {
-        'cta': 'linear-gradient(#63E1D9, #34A0CD)',
+        'cta': 'linear-gradient(135deg, #63E1D9, #34A0CD)',
       },
       fontFamily: {
         'open-sans': ['Open Sans', 'sans-serif'],
