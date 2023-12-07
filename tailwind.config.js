@@ -43,10 +43,12 @@ module.exports = {
         '1440px': '90rem',
       },
       colors: {
-        'mirage-100': '#0b1523',
-        'mirage-200': '#181f2a',
-        'mirage-300': '#1c2431',
-        'mirage-400': '#202a3c',
+        primary: {
+          100: '#0b1523',
+          200: '#181f2a',
+          300: '#1c2431',
+          400: '#202a3c',
+        },
       },
       backgroundImage: {
         'cta': 'linear-gradient(#63E1D9, #34A0CD)',
