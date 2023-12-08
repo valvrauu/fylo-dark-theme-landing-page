@@ -18,13 +18,11 @@ module.exports = {
       screens: {
         'xsm': '375px',
       },
-      gridTemplateColumns: {
-        'max/1fr': 'max-content 1fr',
-      },
       spacing: {
         '13': '3.25rem',
         '18': '4.5rem',
         '19': '4.75rem',
+        '25': '6.25rem',
         '26': '6.5rem',
         '30': '7.5rem',
         '33': '8.25rem',
