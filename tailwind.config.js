@@ -29,7 +29,6 @@ module.exports = {
         '34': '8.5rem',
         '35': '8.75rem',
         '38': '9.5rem',
-        '42': '10.5rem',
         '70': '17.5rem',
         '76': '19rem',
         '212': '53rem',
@@ -57,10 +56,8 @@ module.exports = {
         'nunito': ['Nunito Sans', 'sans-serif'],
       },
       lineHeight: {
-        '4.5': '1.125rem',
-        '7.5': '1.875rem',
-        '12': '3rem',
-        '15': '3.75rem',
+        'tighter': '1.2',
+        'expanded': '1.8',
       },
       boxShadow: {
         'light': '5px 5px 8px 4px rgba(56, 56, 56, 0.10)',

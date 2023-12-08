@@ -34,38 +34,38 @@
     }
 }
 
-.testimonial {
-    @apply flex flex-col grow gap-y-4 relative px-5 pt-6 pb-5 bg-mirage-400 rounded shadow-light;
-}
-
-.testimonial__text {
-    @apply font-open-sans text-2xs leading-4.5;
-}
-
-.testimonial__img {
-    @apply w-6 h-6 rounded-full;
-}
-
-.testimonial__name {
-    @apply text-2xs font-open-sans font-bold not-italic leading-3 tracking-wider;
-}
-
-.testimonial__company {
-    @apply text-3xs font-open-sans not-italic leading-tight tracking-wider;
-}
-
-@screen sm {
+@layer components {
     .testimonial {
-        @apply basis-60;
+        @apply flex flex-col basis-60 grow gap-y-4 relative px-5 pt-6 pb-[1.3125rem] bg-primary-400 font-open-sans rounded shadow-light;
+    }
+
+    .testimonial__text {
+        @apply text-xs leading-expanded;
+    }
+
+    .testimonial__footer {
+        @apply flex gap-x-2 items-center;
+    }
+
+    .testimonial__img {
+        @apply w-6 h-6 rounded-full;
+    }
+
+    .testimonial__name {
+        @apply font-bold text-xs leading-tighter tracking-[.5px] not-italic;
+    }
+
+    .testimonial__company {
+        @apply text-2xs leading-tight tracking-[.571px] not-italic;
     }
 }
 
 @screen lg {
     .testimonial {
-        @apply gap-y-6 px-7 pt-10 pb-[26px];
+        @apply gap-y-6 pr-[1.54375rem] pl-[1.625rem] pt-10 pb-[1.625rem];
     }
 
     .testimonial__text {
-        @apply text-sm tracking-wide;
+        @apply text-base leading-normal tracking-[.5px];
     }
 }
