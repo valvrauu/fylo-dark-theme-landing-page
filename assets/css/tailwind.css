@@ -69,3 +69,19 @@
         @apply text-base leading-normal tracking-[.5px];
     }
 }
+
+.cta-block {
+    @apply basis-[53.9375rem] grid gap-8 mx-2 pt-10 px-2 pb-[2.3125rem] bg-primary-300 rounded-lg shadow-dark;
+}
+
+@screen xsm {
+    .cta-block {
+        @apply mr-[1.1875rem] xsm:ml-5 xsm:px-7;
+    }
+}
+
+@screen lg {
+    .cta-block {
+        @apply gap-[2.375rem] pt-[2.625rem] px-[4.8125rem] pb-[2.5625rem];
+    }
+}
