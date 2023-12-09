@@ -29,6 +29,8 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
+    <script src="errorTxt.js" defer></script>
+
     <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
   </head>
   <body class="max-w-1440px mx-auto bg-primary-300 text-white text-base">
@@ -188,25 +190,29 @@
       </blockquote>
     </section>
 
-    <div class="absolute w-full max-w-[1440px] translate-y-40 md:translate-y-[201px]">
-      <section class="flex flex-col gap-y-2 xsm:gap-y-8 lg:gap-y-[38px] max-w-[770px] lg:max-w-[863px] mx-2 xsm:mx-5 md:mx-auto pt-10 lg:pt-[42px] px-3 xsm:px-7 lg:px-[77px] pb-[37px] lg:pb-[41px] bg-[#1B2330] text-center rounded-[9px] shadow-dark">
-        <div class="flex flex-col gap-y-[16px] lg:px-[18px]">
-          <h2 class="font-raleway font-bold text-md xsm:text-lg md:text-2xl lg:text-[32px] leading-[1.333] lg:leading-normal not-italic">Get early access today</h2>
+    <div class="flex justify-center absolute w-full max-w-1440px translate-y-[10.0625rem] md:translate-y-[12.5625rem]">
+      <section class="cta-block">
+        <div class="text-center lg:px-[1.125rem]">
+          <h2 class="font-raleway text-2xl md:text-4xl lg:text-5xl font-bold leading-6 lg:leading-normal">Get early access today</h2>
 
-          <p class="font-open-sans text-2xs xsm:text-sm xsm:leading-normal">
+          <p class="mt-4 font-open-sans">
             It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
             questions, our support team would be happy to help you.
           </p>
         </div>
 
-        <form action="#" method="post" autocomplete="on" class="flex flex-col md:flex-row gap-y-6 gap-x-[29px]">
-          <input 
-            type="email" 
-            required placeholder="email@example.com" 
-            class="grow xsm:pt-[19px] xsm:pb-[15px] py-2 lg:py-4 xsm:pl-[29px] lg:pl-[38px] text-[#07043B] text-xs text-center xsm:text-left xsm:leading-normal rounded-full placeholder:text-gray-300 placeholder:font-open-sans placeholder:text-2xs lg:placeholder:text-xs"
-          />
+        <form action="#" method="post" autocomplete="on" class="flex flex-wrap justify-between gap-6 lg:gap-[1.8125rem]">
+          <div class="relative basis-120 grow">
+            <input
+              type="email"
+              placeholder="email@example.com"
+              class="w-full pt-[0.875rem] pl-[1.8125rem] lg:pl-[2.375rem] pb-[0.8125rem] text-primary-100 rounded-full placeholder:font-open-sans placeholder:text-xs md:placeholder:text-sm placeholder:text-gray-300 "
+            />
 
-          <button class="lg:w-[200px] py-2.5 xsm:py-4 lg:py-[15px] md:pl-[27px] md:pr-[26px] bg-cta font-bold font-raleway text-2xs xsm:text-sm leading-normal rounded-full cursor-pointer hover:bg-none hover:bg-cyan-200">Get Started For Free</button>
+            <span class="hidden m-2 md:m-0 md:absolute left-9 -bottom-5 text-red-500 font-open-sans text-xs font-bold" id="errorForm">Error, please check your email</span>
+          </div>
+
+          <button class="basis-50 grow btn btn--primary pt-[0.875rem] lg:pt-[0.8125rem] pb-[0.8125rem] lg:pb-[0.875rem] lg:text-base">Get Started For Free</button>
         </form>
       </section>
     </div>
