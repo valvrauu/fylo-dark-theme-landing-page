@@ -85,3 +85,7 @@
         @apply gap-[2.375rem] pt-[2.625rem] px-[4.8125rem] pb-[2.5625rem];
     }
 }
+
+.link--effect:hover {
+    text-shadow: 1px 0 #fff;
+}

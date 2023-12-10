@@ -29,19 +29,34 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
-    <script src="errorTxt.js" defer></script>
+    <script src="assets/scripts/errorTxt.js" defer></script>
 
     <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
   </head>
-  <body class="max-w-1440px mx-auto bg-primary-300 text-white text-base">
+  <body class="max-w-1440px mx-auto bg-primary-200 text-white text-base">
+
+    <div class="absolute lg:hidden top-0 pt-[280px] max-w-1440px -z-10 w-full bg-primary-300">
+      <img src="assets/images/bg-curvy-mobile.svg" class="w-full">
+    </div>
+
+    <div class="hidden lg:block absolute top-0 pt-[848px] max-w-1440px -z-10 w-full bg-primary-300">
+      <img src="assets/images/bg-curvy-desktop.svg" class="w-full">
+    </div>
+
     <header class="flex flex-wrap gap-6 items-center justify-center xsm:justify-between pt-6 pl-5 pr-6 md:pt-12 md:px-14 xl:pt-[4.5625rem] xl:px-20">
-      <img src="assets/images/logo.svg" alt="Fylo" class="w-20 h-6 md:w-32 md:h-10 xl:w-44 xl:h-13">
+      <picture>
+        <img 
+          src="assets/images/logo.svg" 
+          alt="Fylo" 
+          class="w-20 h-6 md:w-32 md:h-10 xl:w-44 xl:h-13"
+        />
+      </picture>
 
       <nav>
         <ul class="flex flex-wrap gap-y-2 gap-x-6 md:gap-8 xl:gap-[3.625rem] justify-center font-raleway text-sm md:text-base lg:text-xl">
-          <li><a class="hover:font-bold hover:underline" href="#">Features</a></li>
-          <li><a class="hover:font-bold hover:underline" href="#">Team</a></li>
-          <li><a class="hover:font-bold hover:underline" href="#">Sign In</a></li>
+          <li><a class="link--effect hover:underline" href="#">Features</a></li>
+          <li><a class="link--effect hover:underline" href="#">Team</a></li>
+          <li><a class="link--effect hover:underline" href="#">Sign In</a></li>
         </ul>
       </nav>
     </header>
@@ -59,7 +74,7 @@
       <a class="btn btn--primary mt-[1.96875rem] lg:mt-[1.9375rem] mx-auto pt-[0.875rem] lg:pt-[1.0625rem] pb-4 lg:pb-[1.1875rem] max-w-240px lg:max-w-280px max-h-12 lg:max-h-14">Get Started</a>
     </section>
 
-    <section class="max-w-880px mx-auto grid sm:grid-cols-2 lg:flex lg:flex-wrap lg:justify-between gap-20 lg:gap-y-[4.9375rem] mt-30 lg:mt-[9.875rem] px-2 xsm:pr-[1.75rem] xsm:pl-[1.6875rem] lg:px-0">
+    <section class="max-w-880px mx-auto grid sm:grid-cols-2 lg:flex lg:flex-wrap lg:justify-between gap-20 lg:gap-y-[4.875rem] mt-30 lg:mt-[9.9375rem] px-2 xsm:pr-[1.75rem] xsm:pl-[1.6875rem] lg:px-0">
       <div class="basis-[21.8125rem] text-center">
         <img src="assets/images/icon-access-anywhere.svg" alt="icon devices" class="block mx-auto w-20 h-20 lg:w-26 lg:h-26 px-2 lg:pr-[0.5625rem] lg:pl-3 object-contain">
 
@@ -254,16 +269,16 @@
         <nav class="basis-[14.375rem] grow lg:grow-0 lg:ml-8 font-open-sans text-xl">
           <ul class="flex flex-col sm:flex-row gap-[2.875rem] lg:gap-20">
             <div class="flex flex-col gap-[0.875rem]">
-              <li class="hover:font-bold duration-200"><a href="#">About Us</a></li>
-              <li class="hover:font-bold duration-200"><a href="#">Jobs</a></li>
-              <li class="hover:font-bold duration-200"><a href="#">Press</a></li>
-              <li class="hover:font-bold duration-200"><a href="#">Blog</a></li>
+              <li><a href="#" class="link--effect">About Us</a></li>
+              <li><a href="#" class="link--effect">Jobs</a></li>
+              <li><a href="#" class="link--effect">Press</a></li>
+              <li><a href="#" class="link--effect">Blog</a></li>
             </div>
 
             <div class="flex flex-col gap-[0.875rem]">
-              <li class="hover:font-bold duration-200"><a href="#">Contact Us</a></li>
-              <li class="hover:font-bold duration-200"><a href="#">Terms</a></li>
-              <li class="hover:font-bold duration-200"><a href="#">Privacy</a></li>
+              <li><a href="#" class="link--effect">Contact Us</a></li>
+              <li><a href="#" class="link--effect">Terms</a></li>
+              <li><a href="#" class="link--effect">Privacy</a></li>
             </div>
           </ul>
         </nav>
